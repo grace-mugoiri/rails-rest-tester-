@@ -11,7 +11,7 @@ class UsersController < ApplicationController
 		@edit = "I am the edit action"
 	end
 
-	def new
-		@index = "I am the new action"
+	def create
+		@create = "I am the create action"
 	end
 end
